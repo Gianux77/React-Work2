@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    /* background-color:lightblue; */
+}
+
+/* BUSCADOR */
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjetas de Bebidas */
+
+.beverages-card {
+    border: 2px solid black;
+    margin: 1rem auto;
+    width: 300px;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
