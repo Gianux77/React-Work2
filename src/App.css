@@ -7,7 +7,7 @@
 body {
     padding: 2rem;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    /* background-color:lightblue; */
+    background-color: rgb(105, 8, 8);
 }
 
 /* BUSCADOR */
@@ -22,15 +22,49 @@ body {
 /* Tarjetas de Bebidas */
 
 .beverages-card {
-    border: 2px solid black;
+    border: 5px solid rgb(97, 90, 90);
     margin: 1rem auto;
-    width: 300px;
+    width: 200px;
     border-radius: 0.5rem;
     text-align: center;
-    color: black;
+    color: rgb(219, 210, 210);
+    margin-left: 1rem;
+    background-color: rgb(68, 65, 65);
+}
+
+.beverages_app{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 img{
     max-width: 100%;
 }
 
+
+h2 { 
+    margin: 1rem;
+}
+
+.beverages-h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 50rem;
+    
+}
+.beverages-h1 > h1{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(171, 172, 173);
+}
+
+.App > form > input {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.App > form > button{
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}

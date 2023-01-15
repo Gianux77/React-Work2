@@ -1,14 +1,13 @@
 
 
-const Beverages = () =>{
+const Beverages = ({data}) =>{
 
 
     return(
         <div className="beverages-card">
-            <img src="" alt="" />
-            <h2>Nombre</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, 
-                enim tenetur quia necessitatibus quidem officia consectetur,</p>
+            <img src={data.strDrinkThumb} alt="" />
+            <h2>{data.strDrink}</h2>
+            <p><small>{data.strInstructionsIT}</small></p>
         </div>
     )
 }
